@@ -4,11 +4,57 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Client Web</title>
-    <!-- Inserire qui il codice per caricare i css di w3.css! --> 
-            
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">            
   </head>
   <body>
-    <!-- Inserire qui il codice per definire il form -->
-         
+    <div class="w3-card-4">
+      razione evento</h2>
+      </div><div class="w3-container w3-green">
+        <h2>Registrazioni</h2>
+      </div>
+      <form action="question.asp" method="post">
+        <label>Nome</label>
+
+        <input type="text" name="Nome" maxlength="50"/><br>
+        <label>Cognome</label>
+
+        <input type="text" name="Cognome" maxlength="50" /><br>
+        <label>Eta</label>
+
+        <input class="w3-input" type="number" name="eta"><br>
+        <label>Data evento</label>
+
+        Data evento<input name="Data_evento"  type="date" /><br>
+        <label>Password</label>
+        <input class="w3-input w3-border" type="password" name="pwd">
+        <div class="w3-container w3-green">
+          <h2>Gadget</h2>
+        </div>
+     <input type="checkbox" name="Sciarpa"  />Sciarpa<br>
+     <input type="checkbox" name="Cappellino"  />Capperlino<br>
+     <input type="checkbox" name="Fischietto"  />Fischietto<br>
+     <div class="w3-container w3-green">
+      <h2>Settore tribuna</h2>
+    </div>
+    <input type="radio" name="tribunaN" value="N" checked />
+      Nord  <br>
+      <input type="radio" name="tribunaS" value="S" />
+      Sud <br>
+      <input type="radio" name="trinunaE" value="E"  />
+      Est  <br>
+      <input type="radio" name="tribunaO" value="O" />
+      Ovest <br>
+      <div class="w3-container w3-green">
+        <h2>Taglia Maglietta</h2>
+      </div>
+      
+      <select name="spedizione">
+        <option value="p" selected>Piccola</option>
+        <option value="m">Media</option>T
+        <option value="g">Grande</option>
+        
+       </select><br>
+      </form>
+    </div>         
   </body>
 </html>
